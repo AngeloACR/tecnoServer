@@ -21,7 +21,7 @@ webApp.listen(webListenerPort, () => {
 }); */
 
 const localPort = 3500;
-const localFolder = '../public/construction';
+const localFolder = './public/construction';
 const localPath = localFolder + '/index.html';
 const localApp = localServer.init(localFolder, localPort);
 
